@@ -2,6 +2,15 @@
 
 HCP-based stable diffusion image generator
 
+## Installation
+
+```shell
+git clone https://github.com/HansBug/sd_hcp.git
+cd sd_hcp
+pip install -r requirements.txt
+make init
+```
+
 ## T2I
 
 ```python
@@ -27,3 +36,4 @@ if __name__ == '__main__':
     plt.show()
 
 ```
+
